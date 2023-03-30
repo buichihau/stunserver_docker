@@ -1,0 +1,9 @@
+version: '2.2'
+services:
+    stunserver:
+        image: stunserver:1.0
+        restart: always
+        volumes:
+          - /etc/localtime:/etc/localtime:ro
+        network_mode: "host"
+
