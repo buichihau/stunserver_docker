@@ -1,5 +1,7 @@
 FROM debian:10
 
+MAINTAINER Hau Bui <buichihau98@gmail.com>
+
 USER root
 
 RUN apt-get update && \
