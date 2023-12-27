@@ -3,6 +3,7 @@ services:
     stunserver:
         image: stunserver:1.0
         restart: always
+        container_name: stunserver
         volumes:
           - /etc/localtime:/etc/localtime:ro
         network_mode: "host"
